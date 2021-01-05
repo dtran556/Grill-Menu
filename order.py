@@ -26,11 +26,11 @@ class Order:
 
     def displayMenu(self):
         """
-        Displays the menu of the De Anza Grill
+        Displays the menu of the Grill
         Prints the choices from 1-5 for the menu items and 6 to stop
         It grabs the menu items from the class Burger and uses its getters to find its name and price
         """
-        print("\n----------- De Anza Food Court -----------")
+        print("\n----------- The Grill -----------")
         number = 0
         for i in range(len(self.burgers)):
             print("{0}. {1:15s} {2:8.2f}".format(number, self.burgers[i].get_name(), self.burgers[i].get_price()))
