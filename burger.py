@@ -41,10 +41,10 @@ class DA_Burger(Burger):
     """
     def __init__(self):
         """
-        This method overrides name, price, and quantity from the class Burger for the burger named De Anza Burger
+        This method overrides name, price, and quantity from the class Burger for the burger named Da Classic Burger
         """
         super().__init__()
-        self.name = 'De Anza Burger'
+        self.name = 'Classic Burger'
         self.price = 5.25
         self.quantity = 0
 
